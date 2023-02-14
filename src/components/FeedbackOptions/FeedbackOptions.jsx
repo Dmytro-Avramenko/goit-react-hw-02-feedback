@@ -1,4 +1,4 @@
-import css from '../feedback/Feedback.module.css';
+import css from '../FeedbackOptions/FeedbackOptions.module.css';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return options.map(option => (
